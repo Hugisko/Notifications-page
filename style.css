@@ -66,15 +66,16 @@ main {
 
 .wrapper {
     background-color: var(--White);
-    padding: 1rem;
+    padding-inline: 1rem;
     max-width: 700px;
+    border-radius: 15px;
 }
 
 .top-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 1rem;
+    padding-block: 1rem;
 }
 
 .left {
@@ -141,6 +142,10 @@ main {
     color: var(--Grayish-blue);
 }
 
+.notification > .chess {
+    margin-left: auto;
+}
+
 .message {
     border: 1px solid var(--Light-grayish-blue-2);
     background-color: var(--White);
@@ -182,12 +187,17 @@ footer {
     }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 500px) {
     body {
         font-size: 1rem;
     }
 
     .wrapper {
         margin-block: 3rem;
+        padding-inline: 2rem;
+    }
+
+    .top-section {
+        padding-block: 2rem;
     }
 }
