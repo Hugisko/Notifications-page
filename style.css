@@ -148,7 +148,7 @@ main {
 
 .message {
     border: 1px solid var(--Light-grayish-blue-2);
-    background-color: var(--White);
+    background-color: transparent;
     padding: 1rem;
     margin-top: .5rem;
     border-radius: 5px;
